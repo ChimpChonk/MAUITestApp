@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using TestApp.ViewModel;
 
 namespace TestApp;
 
@@ -14,6 +15,13 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+
+		builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddSingleton<MainViewModel>();		
+
+		builder.Services.AddTransient<DetailPage>();
+		builder.Services.AddTransient<DetailViewModel>();
+
 
 #if DEBUG
 		builder.Logging.AddDebug();

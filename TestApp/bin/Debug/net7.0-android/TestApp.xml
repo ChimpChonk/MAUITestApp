@@ -16,5 +16,17 @@
         <member name="P:TestApp.ViewModel.MainViewModel.AddCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TestApp.ViewModel.MainViewModel.Add"/>.</summary>
         </member>
+        <member name="F:TestApp.ViewModel.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:TestApp.ViewModel.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:TestApp.ViewModel.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:TestApp.ViewModel.MainViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:TestApp.ViewModel.MainViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:TestApp.ViewModel.MainViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:TestApp.ViewModel.MainViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:TestApp.ViewModel.MainViewModel.Tap(System.String)"/>.</summary>
+        </member>
     </members>
 </doc>
