@@ -1,0 +1,1 @@
+D:\project\TestApp\TestApp\TestApp.csproj;x64

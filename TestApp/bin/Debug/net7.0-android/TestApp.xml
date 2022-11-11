@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestApp</name>
+    </assembly>
+    <members>
+        <member name="P:TestApp.ViewModel.MainViewModel.Items">
+            <inheritdoc cref="F:TestApp.ViewModel.MainViewModel.items"/>
+        </member>
+        <member name="P:TestApp.ViewModel.MainViewModel.Text">
+            <inheritdoc cref="F:TestApp.ViewModel.MainViewModel.text"/>
+        </member>
+        <member name="F:TestApp.ViewModel.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:TestApp.ViewModel.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:TestApp.ViewModel.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TestApp.ViewModel.MainViewModel.Add"/>.</summary>
+        </member>
+    </members>
+</doc>
