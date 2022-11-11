@@ -5,7 +5,8 @@
              Title="DetailPage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="This is detal page"
+            FontSize="25"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
